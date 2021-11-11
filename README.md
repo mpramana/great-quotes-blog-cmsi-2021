@@ -1,2 +1,2 @@
-# todo-list-2021
-Code-along #3 for React class- it is a cool todo list
+# great quotes blog
+This is a blog filled with a lot of quotes from past or present great thinkers.
