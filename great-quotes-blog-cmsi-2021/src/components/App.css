@@ -1,0 +1,68 @@
+.App {
+  display: grid;
+  grid-template-rows: min-content auto;
+  grid-template-columns: 250px auto;
+  height: 100vh;
+  overflow: scroll;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightsalmon;
+  color: white;
+  grid-column: 1 / span 2;
+  padding: 10px 5px;
+}
+
+form {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: lightyellow;
+}
+
+form input,
+form textarea {
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+nav,
+article {
+  height: 100%;
+  padding: 10px;
+  background-color: lightpink;
+}
+
+img#photo {
+  width: 400px;
+  height: 400px;
+}
+
+nav {
+  background-color: lightseagreen;
+  color: aliceblue;
+  scrollbar-width: 10px;
+  scrollbar-color: black;
+}
+
+nav p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+article .date {
+  font-style: italic;
+}
+
+article .body {
+  white-space: break-spaces;
+}
+
+.error {
+  background-color: red;
+  color: gold;
+  padding: 5px;
+}
