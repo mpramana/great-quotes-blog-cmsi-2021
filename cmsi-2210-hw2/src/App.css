@@ -1,0 +1,37 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  margin: auto;
+  padding: auto;
+  padding-top: auto;
+  background-image: url(https://i.imgur.com/yIn6Zuk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: auto 1px;
+}
+h1 {
+  font-family: Chalkduster, fantasy;
+  color: black;
+  margin: auto;
+}
+p {
+  font-family: Marker Felt, fantasy;
+  text-align: center;
+  color: yellow;
+  font-weight: bold;
+}
+.picture {
+  background-image: url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/202104/dog_0.jpg?0eRKF4LDdm4ZvhiSRkuG6rapiNKbilig&size=770:433);
+  align-content: right;
+  max-width: 100%;
+}
+footer {
+  background-image: url(https://previews.123rf.com/images/scenery1/scenery11710/scenery1171000036/87271098-shiny-hot-yellow-gold-foil-golden-color-glitter-decorative-texture-paper.jpg);
+  font-family: American Typewriter, serif;
+  opacity: 90%;
+  max-width: 100%;
+  text-align: center;
+}
