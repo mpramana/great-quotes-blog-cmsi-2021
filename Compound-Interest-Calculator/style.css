@@ -1,0 +1,85 @@
+body {
+  background-image: url(http://prod-upp-image-read.ft.com/8b349314-3b8d-11e7-ac89-b01cc67cfeec);
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Gill Sans';
+  border-style: solid;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+h1:hover {
+  transform: rotate(360deg);
+}
+
+#calculator {
+  font-family: 'Gill Sans';
+  font-weight: 300;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: auto 200px;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 10px;
+  text-shadow: 1px 1px 1px gray;
+}
+
+#reset {
+  font-family: 'Gill Sans';
+  font-weight: 800px;
+  font-size: 15px;
+  color: black;
+  text-transform: uppercase;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: tomato;
+  width: 150px;
+  margin-left: 7vh;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 190vh;
+  width: 100%;
+  height: 75px;           
+}
+
+#interestHover {
+  text-decoration: underline;
+}
+
+#compoundHover {
+  text-decoration: underline;
+}
+
+#howtoInterest {
+  display: none;
+  text-shadow: 1px 1px 1px black;
+}
+
+#howtoCompound {
+  display: none;
+  text-shadow: 1px 1px 1px black;
+}
+
+#blank {
+  opacity: 0;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  text-align: right;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  width: 300px;
+  transform: translateY(-100px) translateX(-200px);
+}

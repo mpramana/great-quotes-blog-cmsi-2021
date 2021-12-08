@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Compound Interest Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1> Compound Interest Calculator </h1>
+    <form id="calculator">
+    
+      Principal: <input type="number" id="principal">
+      <div id="interestHover">Interest Rate:</div> 
+      <input type="number" id="interest">
+      <div id="compoundHover">Compound Frequency:</div> 
+      <input type="number" id="frequency">
+      Total number of years: <input type="number" id="years">
+      Interest is: <span id="result"></span>
+
+      <div id="blank">This is a blank space.</div>
+      <input id="reset" type="reset" value="Clear Input">
+      </div>
+
+    </form>
+    
+    <p id="howtoInterest"><em>Input yearly interest rate as a whole percentage. (e.g. 8% interest --> 8)</em></p>
+    <p id="howtoCompound"><em> The number of times per year that interest will be compounded. (e.g. Compounded Daily --> 365, Compounded Monthly --> 12, Compounded Annually --> 1)</em></p>
+
+  </body>
+    
+  <footer> 
+    <a href="https://www.github.com">
+    <img src="https://www.kindpng.com/picc/m/128-1280187_github-logo-png-github-transparent-png.png" alt="GitHub">
+    </a>
+  </footer>
+     
+  <script src="script.js"></script>
+</html>
