@@ -1,5 +1,3 @@
-# A Blog Starter App
+# Quotes Blog
 
-A little React blog app.
-
-This repo is designed for you to fork and extend with better styles and connecting to a back end.
+With this repo you can see famous people quotes, either fictional or real, and you can get inspired! 
